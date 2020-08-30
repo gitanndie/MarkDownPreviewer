@@ -1,0 +1,33 @@
+#page{
+  display: flex;
+  justify-content: center;
+  font-family: 'Courier New', Courier, monospace;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  height: 180vh;
+}
+
+#preview {
+  background-color: #d0e3e7 ;
+  border: 1px solid black;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+#editor {
+  background-color: #d0e3e7 ;
+  width: 40vw;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #d0e3e7 ;
+  border: 1px solid black;
+  height: 50px;
+  margin-top: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
