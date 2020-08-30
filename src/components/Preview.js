@@ -7,5 +7,4 @@ const Preview = ({text}) => {
         <div id="preview" dangerouslySetInnerHTML={{ __html: textoMarked }} ></div>
     )
 }
-
 export default Preview

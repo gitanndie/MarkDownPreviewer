@@ -1,6 +1,7 @@
 #page{
   display: flex;
   justify-content: center;
+  background-color: beige;
   font-family: 'Courier New', Courier, monospace;
   width: 100%;
   display: flex;

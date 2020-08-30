@@ -5,5 +5,4 @@ const Editor = ({event, text}) => {
         <textarea id="editor" onChange={event} value={text}/>
     )
 }
-
 export default Editor 

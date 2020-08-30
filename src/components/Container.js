@@ -1,9 +1,11 @@
-import React, {Component} from 'react';
+import React, {
+  Component
+} from 'react';
 import Editor from './Editor';
 import Preview from './Preview';
 
-const firstxt = 
-`Este es el primer párrafo
+const firstxt =
+  `Este es el primer párrafo
 
 # Hola esta es la cabecera
 ## Esta es una segunda o subcabecera
@@ -44,28 +46,31 @@ y Aqui! | Okay... | y otras por aca,
 * No olvides agregar algunas imagenes:
 
 ![React Logo w/ Text](https://goo.gl/Umyytc)`
-
 export default class Container extends Component {
-          constructor(props){
-              super(props)
-              this.state = {
-                text: firstxt
-          }
-        }
-          handleChange = (e) => {
-            this.setState({
-              text: e.target.value,
-            });
-          }; 
-          render () {
-            const {text} = this.state;
-              
-            return(
-                <div id="page">
-                  <Editor text={text} event={this.handleChange}></Editor>
-                  <Preview text={text}></Preview> 
-                </div>
-                
-            )
-          }
+  constructor(props) {
+    super(props)
+    this.state = {
+      text: firstxt
+    }
+  }
+  navajowhite
+  handleChange = (e) => {
+    this.setState({
+      text: e.target.value,
+    });
+  };
+  render() {
+    const {
+      text
+    } = this.state;
+    return (
+      <div id = "page">
+        <Editor text = {text}
+        event = {this.handleChange}> 
+        </Editor> 
+        <Preview text = {text}> 
+        </Preview> 
+      </div>
+    )
+  }
 }
